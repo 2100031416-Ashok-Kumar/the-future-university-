@@ -1,0 +1,27 @@
+/* TodoRow.css */
+.todo-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.todo-label {
+    flex-grow: 1;
+    margin-right: 5px;
+}
+
+.edit-input {
+    flex-grow: 1;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.edit-input:focus {
+    outline: none;
+    box-shadow: 0 0 3px #007bff;
+}
